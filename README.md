@@ -3,7 +3,7 @@
 ![](figure/Overview.png "Overview")
 
 
-## Getting Stared
+## Getting Started
 The repository contains efp_parallel.py, a multi-processing script designed to identify extrachromosomal circular DNA (eccDNA) fusion junctions from raw sequencing data. The code processes an input BAM file to detect fusion events indicative of eccDNA. The repository also includes the code necessary to reproduce the results presented in the manuscript.
 
 ## Requirements
