@@ -37,7 +37,7 @@ The script writes a tab-separated file with the following columns:\
     left_linear_reads, left_circ_reads, left_mate_ss, left_mate_ds: Read classification around the left breakpoint;\
     right_linear_reads, right_circ_reads, right_mate_ss, right_mate_ds: Same metrics around the right breakpoint.
 ### Example usage
-Identify eccDNA candidates using 8 threads:/
+Identify eccDNA candidates using 8 threads:
 python efp_parallel.py patient1.sorted.bam 8 patient1_eccDNA.tsv
 #### Notes: Ensure the BAM file includes SA tags (supplementary alignments) to capture split reads.
 
